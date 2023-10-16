@@ -426,9 +426,20 @@ span:nth-of-type(3) {
     nav,
     ul,
     .features,
-    .love_enjoy {
+    .love_enjoy,
+    .facts-cards {
         flex-direction: column;
         gap: 0px;
+    }
+
+    .facts-contents {
+        padding: 10px;
+    }
+
+    .facts-cards {
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
 
     .banner-content p {
@@ -453,10 +464,12 @@ span:nth-of-type(3) {
 
     .features-contents,
     .love_enjoy_contents,
-    .experience {
+    .experience,
+    .facts {
         margin: 0;
         padding: 0;
     }
+
 
     .love_enjoy_contents {
         width: 550px;
@@ -479,7 +492,8 @@ span:nth-of-type(3) {
 
     nav,
     .features,
-    .love_enjoy {
+    .love_enjoy,
+    .facts-cards {
         flex-direction: column;
         gap: 0px;
     }
@@ -494,7 +508,8 @@ span:nth-of-type(3) {
 
     .banner-img,
     .features,
-    .features-contents {
+    .features-contents,
+    .facts {
         margin: 0;
         padding: 5px;
     }
@@ -525,5 +540,11 @@ span:nth-of-type(3) {
         top: -57px;
         left: 316px;
 
+    }
+
+    .facts-cards {
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
 }
